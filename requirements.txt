@@ -16,7 +16,7 @@ backports-csv==1.0.7
     # via -r requirements.in
 bcrypt==4.2.1
     # via paramiko-ng
-beautifulsoup4==4.12.3
+beautifulsoup4==4.13.0
     # via -r requirements.in
 build==1.2.2.post1
     # via pip-tools
@@ -24,7 +24,7 @@ cachetools==5.5.1
     # via
     #   google-auth
     #   premailer
-certifi==2024.12.14
+certifi==2025.1.31
     # via
     #   requests
     #   selenium
@@ -95,9 +95,9 @@ fab-classic==1.19.2
     # via -r requirements.in
 flake8==7.1.1
     # via -r requirements.in
-fonttools==4.55.6
+fonttools==4.55.8
     # via matplotlib
-google-api-core[grpc]==2.24.0
+google-api-core[grpc]==2.24.1
     # via
     #   google-api-python-client
     #   google-cloud-bigquery
@@ -105,7 +105,7 @@ google-api-core[grpc]==2.24.0
     #   google-cloud-core
     #   google-cloud-storage
     #   pandas-gbq
-google-api-python-client==2.159.0
+google-api-python-client==2.160.0
     # via -r requirements.in
 google-auth==2.38.0
     # via
@@ -135,7 +135,7 @@ google-cloud-core==2.4.1
     # via
     #   google-cloud-bigquery
     #   google-cloud-storage
-google-cloud-storage==2.19.0
+google-cloud-storage==3.0.0
     # via -r requirements.in
 google-crc32c==1.6.0
     # via
@@ -238,7 +238,7 @@ pip-tools==7.4.1
     # via -r requirements.in
 premailer==3.10.0
     # via -r requirements.in
-proto-plus==1.25.0
+proto-plus==1.26.0
     # via
     #   google-api-core
     #   google-cloud-bigquery-storage
@@ -289,7 +289,7 @@ python-dateutil==2.9.0.post0
     #   google-cloud-bigquery
     #   matplotlib
     #   pandas
-pytz==2024.2
+pytz==2025.1
     # via
     #   -r requirements.in
     #   pandas
@@ -343,7 +343,9 @@ trio==0.28.0
 trio-websocket==0.11.1
     # via selenium
 typing-extensions==4.12.2
-    # via selenium
+    # via
+    #   beautifulsoup4
+    #   selenium
 tzdata==2025.1
     # via pandas
 uritemplate==4.1.1
